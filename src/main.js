@@ -40,7 +40,7 @@ for (let i = 0; i < 10; i++) {
 
 let randomNum;
 while (randomNum !== 27) {
-    randomNum = Math.floor(Math.random() * 100 + 1);
+    randomNum = Math.floor((Math.random() * 100) + 1;
     console.log(randomNum);
 }
 
